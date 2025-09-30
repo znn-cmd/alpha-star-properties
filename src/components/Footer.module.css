@@ -1,0 +1,129 @@
+.footer {
+  background: var(--color-navy);
+  color: var(--color-white);
+  padding: 4rem 0 2rem;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .footerContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footerContent {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.logoText {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  letter-spacing: 0.5px;
+}
+
+.logoSubtext {
+  font-size: 0.875rem;
+  color: var(--color-white);
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.address,
+.email {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.email a {
+  color: var(--color-gold);
+  transition: opacity var(--transition-fast);
+}
+
+.email a:hover {
+  opacity: 0.8;
+}
+
+.columnTitle {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-gold);
+}
+
+.linkList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.linkList a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color var(--transition-fast);
+}
+
+.linkList a:hover {
+  color: var(--color-gold);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLinks a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  transition: all var(--transition-base);
+}
+
+.socialLinks a:hover {
+  background: var(--color-gold);
+  color: var(--color-navy);
+  transform: translateY(-4px);
+}
+
+.socialLinks svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footerBottom {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  text-align: center;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+}

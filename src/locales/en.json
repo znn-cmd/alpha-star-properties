@@ -1,0 +1,136 @@
+{
+  "common": {
+    "currency": "AED",
+    "sqft": "sq.ft",
+    "sqm": "m²",
+    "loading": "Loading...",
+    "submit": "Send",
+    "close": "Close",
+    "name": "Name",
+    "phone": "Phone",
+    "message": "Message",
+    "required": "Required"
+  },
+  "header": {
+    "phone": "+971 50 123 4567",
+    "whatsapp": "WhatsApp",
+    "languageSwitcher": "Language"
+  },
+  "hero": {
+    "headline": "Elite Properties in Dubai — Direct Access to Off-Market Deals",
+    "subheadline": "From first call to key handover — we take care of the entire process. Complimentary consultation.",
+    "cta1": "Book a Viewing",
+    "cta2": "Get Curated Shortlist"
+  },
+  "valueProps": {
+    "title": "Why Choose Alpha Star",
+    "prop1": {
+      "title": "Exclusive Listings",
+      "description": "Access to properties you won't find online."
+    },
+    "prop2": {
+      "title": "Full Legal Support",
+      "description": "100% transparent transactions under Dubai law."
+    },
+    "prop3": {
+      "title": "Personal Manager 24/7",
+      "description": "Dedicated advisor available anytime."
+    }
+  },
+  "pathChooser": {
+    "title": "What brings you here?",
+    "buying": {
+      "title": "I am Buying",
+      "description": "Find your dream property in Dubai.",
+      "cta": "Start Search"
+    },
+    "investing": {
+      "title": "I am Investing",
+      "description": "Maximize ROI with curated investment opportunities.",
+      "cta": "View Opportunities"
+    },
+    "selling": {
+      "title": "I want to Sell",
+      "description": "Get fast valuation and premium buyers.",
+      "cta": "Get Valuation"
+    }
+  },
+  "properties": {
+    "title": "Featured Properties",
+    "subtitle": "Handpicked premium listings",
+    "requestViewing": "Request Viewing",
+    "seaView": "Sea View",
+    "privatePool": "Private Pool",
+    "property1": {
+      "name": "Palm Jumeirah Penthouse",
+      "size": "12,500",
+      "price": "32,000,000"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "testimonial1": {
+      "text": "Alpha Star made buying my Dubai villa effortless. Every detail was handled with care.",
+      "author": "Mikhail",
+      "role": "Investor"
+    },
+    "testimonial2": {
+      "text": "Professional, transparent, and always available. Highly recommended.",
+      "author": "Aisha",
+      "role": "Homeowner"
+    }
+  },
+  "cases": {
+    "title": "Success Stories",
+    "case1": {
+      "title": "Off-market penthouse on Palm",
+      "description": "Secured for client 15% below market price."
+    },
+    "case2": {
+      "title": "Investor from Europe",
+      "description": "ROI of 9.2% on rental within first year."
+    }
+  },
+  "leadMagnet": {
+    "title": "Get Free Investment Guide 2025",
+    "description": "Dubai market trends, ROI insights, and best areas to buy.",
+    "cta": "Download Free Guide"
+  },
+  "contactForm": {
+    "title": "Let's find your Dubai property today.",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "Phone (WhatsApp)",
+    "purposeLabel": "Purpose",
+    "purposeOptions": {
+      "buy": "Buy",
+      "sell": "Sell",
+      "invest": "Invest"
+    },
+    "messagePlaceholder": "Tell us about your requirements (optional)",
+    "submitButton": "Send",
+    "successTitle": "Thank you!",
+    "successMessage": "Advisor will contact you within 30 minutes.",
+    "errorTitle": "Error",
+    "errorMessage": "Something went wrong. Please try again.",
+    "privacyNote": "We never share your data. 100% secure.",
+    "gdprConsent": "I agree to the processing of my personal data"
+  },
+  "whatsapp": {
+    "message": "Hello! I'm interested in properties in Dubai. Can you help me?",
+    "propertyMessage": "Hello! I'm interested in this property: {propertyName}. Can you provide more details?"
+  },
+  "footer": {
+    "copyright": "Alpha Star Properties © 2025. Licensed under RERA Dubai.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms",
+    "careers": "Careers",
+    "address": "Dubai, UAE",
+    "email": "info@alphastardubai.ae"
+  },
+  "seo": {
+    "home": {
+      "title": "Alpha Star Properties - Elite Real Estate in Dubai",
+      "description": "Premium properties in Dubai with full legal support. Access exclusive off-market deals. Buy, sell, or invest with confidence."
+    }
+  }
+}
