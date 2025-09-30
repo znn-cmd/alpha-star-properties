@@ -30,10 +30,13 @@ export default function Hero() {
             loop
             muted
             playsInline
+            preload="auto"
             className={styles.heroVideo}
+            poster="/assets/hero.jpg"
           >
             <source src="/assets/hero-video.mp4" type="video/mp4" />
             <source src="/assets/13606726_3840_2160_30fps.mp4" type="video/mp4" />
+            {/* Fallback message for browsers that don't support video */}
           </video>
           <div className={styles.heroOverlay}></div>
         </div>
