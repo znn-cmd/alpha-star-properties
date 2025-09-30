@@ -4,8 +4,13 @@ import { locales } from '@/i18n/request';
 import type { Metadata } from 'next';
 import AnalyticsProviders from '@/components/AnalyticsProviders';
 
+// Disable static generation for dynamic rendering
+export const dynamic = 'force-dynamic';
+export const dynamicParams = true;
+
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  // Return empty array to disable static generation at build time
+  return [];
 }
 
 export async function generateMetadata({
